@@ -1,3 +1,12 @@
 p {
     font-family: 'Antic', sans-serif;
 }
+
+.jumbotron{
+    background-image: url("../images/landing.jpg");
+    font-size: 12px;
+    text-align: center;
+    background-size: cover;
+    margin: 0px;
+    
+}

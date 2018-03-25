@@ -13,4 +13,14 @@ p {
 
 .food{
     width: 100%;
+    position: relative;
+    text-align: center
+}
+
+.fastfood{
+    width: 100%;
+}
+
+p.fastfood{
+    float: left;
 }

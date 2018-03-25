@@ -50,6 +50,8 @@ p {
 
 p.fastfood{
     float: left;
+    width: 20em;
+    word-wrap: break-word;
 }
 
 .bgfood{
@@ -57,8 +59,10 @@ p.fastfood{
 }
 
 .tomatoes{
+    width: 100%;
     text-align: center;
     color: white;
+    display: block;
     background-image: url("../images/subscribe.jpg")
 }
 
@@ -66,4 +70,20 @@ p.fastfood{
     background-color: #F15A29;
     text-align: center;
     color: white;
+}
+
+#button{
+    background-color: #F15A29;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.btn-subscribe{
+    background-color: #F15A29;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px; 
 }

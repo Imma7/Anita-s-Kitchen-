@@ -30,9 +30,13 @@ p.fastfood{
 }
 
 .tomatoes{
+    text-align: center;
+    color: white;
     background-image: url("../images/subscribe.jpg")
 }
 
 .footer{
     background-color: #F15A29;
+    text-align: center;
+    color: white;
 }

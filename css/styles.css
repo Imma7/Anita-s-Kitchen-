@@ -63,6 +63,7 @@ p.fastfood{
     text-align: center;
     color: white;
     display: block;
+    background-size: cover;
     background-image: url("../images/subscribe.jpg")
 }
 
@@ -85,5 +86,6 @@ p.fastfood{
     color: white;
     text-align: center;
     display: inline-block;
-    padding: 15px; 
+    padding: 14px 40px; 
+    font-size: 20px;
 }

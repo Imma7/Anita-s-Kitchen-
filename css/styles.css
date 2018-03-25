@@ -8,13 +8,40 @@ p {
     text-align: center;
     background-size: cover;
     margin: 0px;
-    
+    color: white;
 }
 
 .food{
     width: 100%;
     position: relative;
-    text-align: center
+    text-align: center;
+}
+
+#happyhour{
+    background-color: lightgray;
+    text-align: center;
+    height: 20px;
+}
+
+#partytime{
+    background-color: #F15A29;
+    text-align: center;
+    height: fit-content;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-style: italic;
+    transition: .0001s ease;
+}
+
+.schedule:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .fastfood{

@@ -26,6 +26,9 @@ p.fastfood{
 }
 
 .bgfood{
-    background-image: url("../images/foodsBg.jpg")
-    
+    background-image: url("../images/foodsBg.jpg")   
+}
+
+.tomatoes{
+    background-image: url("../images/subscribe.jpg")
 }

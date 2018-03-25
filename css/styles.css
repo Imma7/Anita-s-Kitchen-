@@ -24,3 +24,8 @@ p {
 p.fastfood{
     float: left;
 }
+
+.bgfood{
+    background-image: url("../images/foodsBg.jpg")
+    
+}

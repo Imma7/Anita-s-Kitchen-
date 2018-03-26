@@ -99,3 +99,15 @@ p.fastfood{
     font-size: 20px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}

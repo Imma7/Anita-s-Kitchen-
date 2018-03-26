@@ -26,15 +26,25 @@ p {
 }
 
 #happyhour{
-    background-color: lightgray;
+    background-color: lightgrey;
     text-align: center;
-    height: 20px;
+    margin-right: -85px;
+    margin-left: -20px;
+    padding-top: 41px;
+    padding-bottom: 45px;
+    margin-bottom: 0px;
+    color: black;
 }
 
 #partytime{
     background-color: #F15A29;
     text-align: center;
-    height: fit-content;
+    margin-right: -85px;
+    margin-left: -20px;
+    padding-top: 41px;
+    padding-bottom: 45px;
+    margin-bottom: 0px;
+    color: black;
 }
 
 .centered{
@@ -47,6 +57,9 @@ p {
     transition: .0001s ease;
 }
 
+.schedule{
+    margin-right: -50px;
+}
 .schedule:hover{
     opacity: 0.5;
     filter: alpha(opacity=50);
@@ -67,13 +80,17 @@ p.fastfood{
 }
 
 .tomatoes{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     color: white;
     display: block;
-    padding-top: 35px;
+    /* border: 2px solid green; */
+    /* padding-top: 35px; */
+    /* background-size: cover; */
+    background-image: url("../images/subscribe.jpg");
+    height:50vh;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/subscribe.jpg")
 }
 
 .footer{

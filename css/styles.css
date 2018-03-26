@@ -11,6 +11,14 @@ p {
     color: white;
 }
 
+#menu{
+    color: white;
+}
+.menu ul li{
+    list-style: none;
+}
+
+
 .food{
     width: 100%;
     position: relative;
@@ -63,6 +71,7 @@ p.fastfood{
     text-align: center;
     color: white;
     display: block;
+    padding-top: 35px;
     background-size: cover;
     background-image: url("../images/subscribe.jpg")
 }

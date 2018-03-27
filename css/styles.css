@@ -222,13 +222,17 @@ p.fastfood{
     /* padding-right: 50px; */
 }
 
+.form-control{
+    padding: 10px 40px; 
+    font-size: 20px;
+}
 .btn-subscribe{
     background-color: #F15A29;
     border: none;
     color: white;
     text-align: center;
     display: inline-block;
-    padding: 14px 40px; 
+    padding: 9px 40px; 
     font-size: 20px;
 }
 

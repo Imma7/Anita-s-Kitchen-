@@ -18,21 +18,79 @@ p {
     list-style: none;
 }
 
-
 .food{
-    width: 100%;
+    
     position: relative;
     text-align: center;
+    
 }
+.col-md-3{
+    padding:0%;
+    margin:0%;
+    height:20vh;
+    border: none;
+}
+.breakfast{
+    background-image: url("../images/breakfast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0%;
+    color: white;
+    font-style: italic;
+    padding: 43px;
+}
+.lunch{
+    background-image: url("../images/lunch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    padding: 43px;
+}
+.dinner{
+    background-image: url("../images/dinner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    padding: 43px;
+}
+#happyhour{
+    background-color: lightgrey;
+    text-align:center;
+    height:10vh;
+    padding: 35px;
+}
+#partytime{
+    background-color: red;
+    text-align:center;
+    height: 9.6vh;
+    padding: 35px;
+}
+/* 
+.food{
+    
+    position: relative;
+    text-align: center;
+    border: 2px solid green;
+}
+
+
+
+
+
 
 #happyhour{
     background-color: lightgrey;
     text-align: center;
-    margin-right: -85px;
+    height:50%;
+   
+    margin-right: -50px;
     margin-left: -20px;
     padding-top: 41px;
     padding-bottom: 45px;
     margin-bottom: 0px;
+    
     color: black;
 }
 
@@ -55,7 +113,7 @@ p {
     color: white;
     font-style: italic;
     transition: .0001s ease;
-}
+} */
 
 .schedule{
     margin-right: -50px;
@@ -88,15 +146,14 @@ p.fastfood{
     /* padding-top: 35px; */
     /* background-size: cover; */
     background-image: url("../images/subscribe.jpg");
-    height:50vh;
+    height:40vh;
+    padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.footer{
-    background-color: #F15A29;
-    text-align: center;
-    color: white;
+.col-md-6{
+    padding: 50px;
 }
 
 #button{
@@ -104,6 +161,7 @@ p.fastfood{
     border: none;
     color: white;
     text-align: center;
+    /* padding-right: 50px; */
 }
 
 .btn-subscribe{
@@ -114,6 +172,13 @@ p.fastfood{
     display: inline-block;
     padding: 14px 40px; 
     font-size: 20px;
+}
+
+.footer{
+    background-color: #F15A29;
+    text-align: center;
+    color: white;
+    background-size: cover;
 }
 
 ul {

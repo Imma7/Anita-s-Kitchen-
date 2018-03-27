@@ -39,6 +39,12 @@ p {
     font-style: italic;
     padding: 43px;
 }
+
+.breakfast:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
 .lunch{
     background-image: url("../images/lunch.jpg");
     background-repeat: no-repeat;
@@ -46,6 +52,11 @@ p {
     color: white;
     font-style: italic;
     padding: 43px;
+}
+
+.lunch:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 .dinner{
     background-image: url("../images/dinner.jpg");
@@ -55,6 +66,12 @@ p {
     font-style: italic;
     padding: 43px;
 }
+
+.dinner:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+} 
+
 #happyhour{
     background-color: lightgrey;
     text-align:center;
@@ -134,7 +151,10 @@ p.fastfood{
 }
 
 .bgfood{
-    background-image: url("../images/foodsBg.jpg")   
+    background-image: url("../images/foodsBg.jpg");
+    text-align: center;
+    height: 40vh;   
+    padding-top: 40px;
 }
 
 .tomatoes{
@@ -187,14 +207,13 @@ p.fastfood{
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: lightgray;
 }
 
 li {
     float: left;
+    padding-left: 150px;
     border-right:1px solid #bbb;
 }
 
@@ -207,5 +226,5 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
 }

@@ -179,6 +179,10 @@ p.fastfood{
     text-align: center;
     color: white;
     background-size: cover;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid red; */
 }
 
 ul {

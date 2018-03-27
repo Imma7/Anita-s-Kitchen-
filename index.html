@@ -7,6 +7,16 @@
   <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   <script src="js/jquery.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116497862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116497862-1');
+</script>
+
   <title>Anitas Kitchen</title>
 </head>
 
@@ -56,8 +66,7 @@
       <h3>Fast Food</h3>
       <h5>You'll love our delicious fast food</h5>
       <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dalore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce teur sint occaecat cupi datat non proident</p>
-      <br>
-      <p>VIEW GALLERY</p>
+      <button disabled="disabled">VIEW GALLERY</button>
     </p>
     </div>
   </div>
@@ -71,7 +80,7 @@
     <h2>Drinks</h2>
     <h3>We also produce delicious drinks</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce teur sint occaecat cupi datat non proident</p>
-    <p>VIEW GALLERY</p>
+    <button disabled="disabled">VIEW GALLERY</button>
     </div>
 
     <div class="col-md-6">
@@ -84,12 +93,14 @@
   <div class="container-fluid">
   <div class="row">
     <div class="bgfood">
+      <div class="row" style="background-image: white;">
       <ul>
         <li><a href="#fastfood">Fast Food</a></li>
         <li><a href="#drinks">Drinks</a></li>
         <li><a href="#chicken">Chicken</a></li>
         <li><a href="#rice">Rice</a></li>
       </ul>
+    </div>
       <img src="images/chickenBurger.jpg" alt="Chicken-Burger">
       <img src="images/beefBurger.jpg" alt="Beef-Burger">
       <img src="images/chickenPizza.jpg" alt="Chicken-Pizza">
